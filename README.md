@@ -1,6 +1,6 @@
 ## NiimbotJS Tools
 
-A web tool for tinkering with [Niimbot](https://www.niimbot.net/enweb/) label printers.  The data comes from exported [WireShark](https://www.wireshark.org/) packet dissections.
+A web tool for tinkering with [Niimbot](https://www.niimbot.net/enweb/) label printers.  The data used by the tool comes from exported [WireShark](https://www.wireshark.org/) packet dissections.  
 
 [View the tool on GitHub pages](https://dtgreene.github.io/niimbotjs-tools/dist/)
 
