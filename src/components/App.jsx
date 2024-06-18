@@ -1,5 +1,5 @@
 import {
-  createBrowserRouter,
+  createHashRouter,
   Navigate,
   RouterProvider,
   useRouteError,
@@ -112,7 +112,7 @@ const routes = [
     ],
   },
 ];
-const router = createBrowserRouter(routes, {
+const router = createHashRouter(routes, {
   basename: import.meta.env.VITE_ROUTER_BASENAME,
 });
 
