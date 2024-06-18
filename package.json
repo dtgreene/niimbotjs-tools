@@ -6,7 +6,7 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "build:ghpages": "vite build --base=https://dtgreene.github.io/niimbotjs-tools/dist/ --mode=github",
+    "build:ghpages": "vite build --base=https://dtgreene.github.io/niimbotjs-tools/dist/ --mode github",
     "format": "npx prettier . --write"
   },
   "devDependencies": {
