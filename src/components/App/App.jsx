@@ -13,9 +13,8 @@ const errorState = proxy({
   expanded: false,
 });
 
-const ErrorFallback = () => {
+const ErrorFallback = ({ error }) => {
   const snap = useSnapshot(errorState);
-  const error = useRouteError();
   const errorInfo = {
     message: '',
     stack: [],
