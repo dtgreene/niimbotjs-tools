@@ -2,7 +2,7 @@ import { ArrowUp } from 'lucide-react';
 import { useSnapshot } from 'valtio';
 import clsx from 'clsx';
 
-import { layoutState } from './Layout/state';
+import { appState } from './App/state';
 
 function handleScrollClick() {
   document
@@ -11,7 +11,7 @@ function handleScrollClick() {
 }
 
 export const ScrollButton = () => {
-  const snap = useSnapshot(layoutState);
+  const snap = useSnapshot(appState);
 
   return (
     <div className="fixed bottom-8 right-8 z-10">

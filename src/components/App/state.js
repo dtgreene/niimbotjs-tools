@@ -1,5 +1,6 @@
 import { proxy } from 'valtio';
 
-export const layoutState = proxy({
+export const appState = proxy({
   hasScroll: false,
+  activeIndex: 0,
 });
