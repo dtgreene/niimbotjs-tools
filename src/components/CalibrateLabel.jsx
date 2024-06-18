@@ -102,7 +102,9 @@ export const CalibrateLabel = () => {
           {text}
         </text>
       </svg>
-      <canvas width={width} height={height} ref={canvasRef} />
+      <div className="flex justify-center">
+        <canvas width={width} height={height} ref={canvasRef} />
+      </div>
     </Fragment>
   );
 };
