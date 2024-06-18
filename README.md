@@ -4,6 +4,8 @@ A web tool for tinkering with [Niimbot](https://www.niimbot.net/enweb/) label pr
 
 [View the tool on GitHub pages](https://dtgreene.github.io/niimbotjs-tools/dist/)
 
+Most of the packet info came from [kjy00302/niimprint](https://github.com/kjy00302/niimprint) and [AndBondStyle/niimprint](https://github.com/AndBondStyle/niimprint)
+
 ### Packet Explorer
 The packet explorer is similar to the view you get in WireShark but the packet is decoded based on how Niimbot packets are structured.  You can view the packet codes used by the name column [here](https://github.com/dtgreene/niimbotjs-tools/blob/main/src/lib/packets.js).  Clicking on one of the payload bytes columns will open the bytes inspector which is useful when you aren't sure what data is stored in the packet.
 
