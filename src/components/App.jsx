@@ -112,6 +112,8 @@ const routes = [
     ],
   },
 ];
-const router = createBrowserRouter(routes);
+const router = createBrowserRouter(routes, {
+  basename: import.meta.env.VITE_ROUTER_BASENAME,
+});
 
 export const App = () => <RouterProvider router={router} />;
